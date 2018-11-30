@@ -9,6 +9,7 @@
 
 //defaults
 let cookieCount = 0;
+let clickPower = 1;
 
 //DOM decleration
 let cookieCounter = document.getElementById('cookie-counter');
@@ -32,7 +33,7 @@ let refreshCookieCount = function() {
 
 ********************************/
 
-let clickPower = 1;
+
 //default variables
 let clickPowerPriceAmount = 50;
 let clickPowerLevelNumber = 1;
@@ -123,7 +124,7 @@ autoGrandmaStart();
 
 //refresh shop item
 refreshGrandma();
-
+}
 })
 
 let refreshGrandma = function() {
@@ -190,18 +191,6 @@ if (cookieCount >= facilityPriceAmount) {
   }//DONT FORGET THIS BRACKET
 })
 
-    //upgrade power level
-
-    //update price
-
-    //update facility power
-
-    //turn autoFacility on!
-
-    //refresh shop item
-
-  }
-})
 
 
 //game loop
